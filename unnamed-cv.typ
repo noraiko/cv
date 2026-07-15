@@ -1,24 +1,17 @@
 #import "@preview/basic-resume:0.2.9": *
 
-#let name = "Nurulhuda Gumay Riswandi"
-#let location = "London, UK"
-#let email = "riswn1205@gmail.com"
-#let linkedin = "linkedin.com/in/riswandi-ng"
-#let phone = "+447918982178"
+#let name = ""
+#let location = ""
+#let email = ""
+#let linkedin = ""
+#let phone = ""
 
 #show: resume.with(
-  author: name,
-  email: email,
-  location: location,
-  linkedin: linkedin,
-  phone: phone,
   accent-color: "#000",
   font: "New Computer Modern",
   font-size: 10.25pt,
   author-font-size: 20.5pt,
   paper: "a4",
-  author-position: center,
-  personal-info-position: left,
 )
 
 == Education
