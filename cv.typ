@@ -17,7 +17,7 @@
   font-size: 10.25pt,
   author-font-size: 20.5pt,
   paper: "a4",
-  author-position: left,
+  author-position: center,
   personal-info-position: left,
 )
 
@@ -25,8 +25,6 @@
 
 #edu(
   dates: dates-helper(start-date: "September 2025", end-date: "Present"),
-  institution: "University College London (UCL)",
-  location: "London, UK",
   degree: "Master of Science in Public Policy",
   consistent: true,
 )
@@ -36,19 +34,35 @@
 
 #edu(
   dates: dates-helper(start-date: "September 2022", end-date: "July 2025"),
-  institution: "University of Southampton",
-  location: "Southampton, UK",
   degree: "Bachelor of Arts (Hons) in Philosophy and Politics - Grade: 2:1",
-  consistent: true,
+  consistent: true,               
 )
+
+== Projects
+
+#project(
+  name: "National Transition Package for Disadvantaged Students in Higher Education",
+  dates: dates-helper(start-date: "June 2026", end-date: "Present")
+)
+- Developed an initial policy evidence base examining post-entry inequalities in higher education, including continuation, completion, financial pressure and student belonging.
+- Synthesised evidence from regulators, student organisations and higher education providers to identify gaps in transition and support provision.
+- Currently developing policy recommendations on transition support, targeted first-year financial assistance and ongoing support standards.
+
+#project(
+  name: "Causal Inference: Poor Housing Conditions and Self-Reported Health in the UK",
+  dates: "May 2026"
+)
+- Analysed whether poor housing conditions affect the likelihood of reporting poor health using UK Poverty and Social Exclusion Survey data
+- Applied regression analysis, robust standard errors and propensity score matching to estimate the relationship between poor housing and poor health.
+-  Used R to clean survey data, construct treatment and outcome variables, conduct robustness checks and present findings through tables and visualisations
 
 == Work Experience
 
 #work(
   title: "Student Storyteller",
-  dates: dates-helper(start-date: "January 2026", end-date: "Present"),
-  company: "UCL Students Communications",
-  location: "London, UK",
+  dates: dates-helper(start-date: "January 2026", end-date: "June 2026"),
+  company: "Student Communications Team",
+  location: "UK University",
 )
 - Write commissioned articles surrounding complex ideas and institutional
   initiatives into clear, accessible content.
@@ -59,9 +73,9 @@
 
 #work(
   title: "Student Writer and Contributor",
-  dates: dates-helper(start-date: "December 2025", end-date: "Present"),
-  company: "UCL Pi Online",
-  location: "London, UK",
+  dates: dates-helper(start-date: "December 2025", end-date: "May 2026"),
+  company: "Online Student Publication",
+  location: "UK University",
 )
 - Write analytical and opinion-based articles on social and political issues
   for an online audience.
@@ -72,9 +86,9 @@
 
 #work(
   title: "Research Team Member",
-  dates: dates-helper(start-date: "November 2025", end-date: "Present"),
-  company: "UCL Bentham Brooks Institute",
-  location: "London, UK",
+  dates: dates-helper(start-date: "November 2025", end-date: "June 2026"),
+  company: "Policy Research Institute",
+  location: "UK University",
 )
 - Conduct research on migration and refugee policy, producing evidence-informed
   insights for policy-relevant discussions.
@@ -86,8 +100,8 @@
 #work(
   title: "Lead Intern",
   dates: dates-helper(start-date: "June 2025", end-date: "August 2025"),
-  company: "Centre of Higher Education Practice, University of Southampton",
-  location: "Southampton, UK",
+  company: "Centre of Higher Education Practice",
+  location: "UK University",
 )
 - Led a team of interns to deliver a university-wide academic programme,
   coordinating across staff and stakeholders.
@@ -99,8 +113,8 @@
 #work(
   title: "Student Project Intern",
   dates: dates-helper(start-date: "April 2025", end-date: "January 2026"),
-  company: "Centre of Higher Education Practice, University of Southampton",
-  location: "Southampton, UK",
+  company: "Centre of Higher Education Practice",
+  location: "UK University",
 )
 - Supported education-focused projects through stakeholder engagement,
   coordination and content development.
@@ -108,9 +122,6 @@
   collaboration across teams.
 - Contributed to project delivery through organisation, communication and
   problem-solving.
-
-== Projects
-
 
 
 == Technical Skills
