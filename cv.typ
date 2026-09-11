@@ -17,14 +17,16 @@
   font-size: 10.25pt,
   author-font-size: 20.5pt,
   paper: "a4",
-  author-position: center,
+  author-position: left,
   personal-info-position: left,
 )
 
 == Education
 
 #edu(
-  dates: dates-helper(start-date: "September 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "September 2025", end-date: "September 2026"),
+  institution: "University College London (UCL)",
+  location: "London, UK",
   degree: "Master of Science in Public Policy",
   consistent: true,
 )
@@ -34,19 +36,21 @@
 
 #edu(
   dates: dates-helper(start-date: "September 2022", end-date: "July 2025"),
+  institution: "University of Southampton",
+  location: "Southampton, UK",
   degree: "Bachelor of Arts (Hons) in Philosophy and Politics - Grade: 2:1",
-  consistent: true,               
+  consistent: true,
 )
 
 == Projects
 
 #project(
-  name: "National Transition Package for Disadvantaged Students in Higher Education",
-  dates: dates-helper(start-date: "June 2026", end-date: "Present")
+  name: "National Transition & Support Package for Disadvantaged Students",
+  dates: dates-helper(start-date: "June 2026", end-date: "September 2026")
 )
-- Developed an initial policy evidence base examining post-entry inequalities in higher education, including continuation, completion, financial pressure and student belonging.
-- Synthesised evidence from regulators, student organisations and higher education providers to identify gaps in transition and support provision.
-- Currently developing policy recommendations on transition support, targeted first-year financial assistance and ongoing support standards.
+- Developed an evidence-based policy proposal addressing post-entry inequalities in higher education, synthesising evidence on continuation, financial pressure, student belonging and gaps in transition support.
+- Designed a strategic advocacy plan identifying priority stakeholders, influencing routes and a staged pathway for securing support for a national transition and support package.
+- Created targeted advocacy materials, including a stakeholder letter and policy briefing memo, translating complex evidence and recommendations for policy and regulatory audiences.
 
 #project(
   name: "Causal Inference: Poor Housing Conditions and Self-Reported Health in the UK",
@@ -61,47 +65,47 @@
 #work(
   title: "Student Storyteller",
   dates: dates-helper(start-date: "January 2026", end-date: "June 2026"),
-  company: "Student Communications Team",
-  location: "UK University",
+  company: "UCL Student Communications",
+  location: "London, UK",
 )
-- Write commissioned articles surrounding complex ideas and institutional
+- Wrote commissioned articles surrounding complex ideas and institutional
   initiatives into clear, accessible content.
-- Research stories, develop narrative angles and conduct interviews,
+- Researched stories, develop narrative angles and conduct interviews,
   translating student experiences and institutional initiatives.
-- Produce audience-focused written content in line with editorial briefs,
+- Produced audience-focused written content in line with editorial briefs,
   ensuring clarity, engagement and impact.
 
 #work(
   title: "Student Writer and Contributor",
   dates: dates-helper(start-date: "December 2025", end-date: "May 2026"),
-  company: "Online Student Publication",
-  location: "UK University",
+  company: "UCL Pi Online",
+  location: "London, UK",
 )
-- Write analytical and opinion-based articles on social and political issues
+- Wrote analytical and opinion-based articles on social and political issues
   for an online audience.
-- Conduct independent research and develop arguments, presenting complex topics
+- Conducted independent research and develop arguments, presenting complex topics
   in a clear and engaging format.
-- Adapt tone and structure to suit audience needs, strengthening communication
+- Adapted tone and structure to suit audience needs, strengthening communication
   beyond academic writing.
 
 #work(
   title: "Research Team Member",
   dates: dates-helper(start-date: "November 2025", end-date: "June 2026"),
-  company: "Policy Research Institute",
-  location: "UK University",
+  company: "UCL Bentham Brooks Institute",
+  location: "London, UK",
 )
-- Conduct research on migration and refugee policy, producing evidence-informed
+- Conducted research on migration and refugee policy, producing evidence-informed
   insights for policy-relevant discussions.
-- Synthesise academic literature, policy reports and datasets to identify key
+- Synthesised academic literature, policy reports and datasets to identify key
   trends and support analytical outputs.
-- Contribute to collaborative research outputs, including drafting sections and
+- Contributed to collaborative research outputs, including drafting sections and
   refining findings for clarity and impact.
 
 #work(
   title: "Lead Intern",
   dates: dates-helper(start-date: "June 2025", end-date: "August 2025"),
-  company: "Centre of Higher Education Practice",
-  location: "UK University",
+  company: "Centre of Higher Education Practice, University of Southampton",
+  location: "Southampton, UK",
 )
 - Led a team of interns to deliver a university-wide academic programme,
   coordinating across staff and stakeholders.
@@ -113,8 +117,8 @@
 #work(
   title: "Student Project Intern",
   dates: dates-helper(start-date: "April 2025", end-date: "January 2026"),
-  company: "Centre of Higher Education Practice",
-  location: "UK University",
+  company: "Centre of Higher Education Practice, University of Southampton",
+  location: "Southampton, UK",
 )
 - Supported education-focused projects through stakeholder engagement,
   coordination and content development.
